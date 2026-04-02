@@ -1,5 +1,12 @@
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=IntelliJ IDEA
+### POST request to create patient
+POST http://localhost:4000/api/registerPatient
+Content-Type: application/json
 
+{
+    "name" : "Ayushi Saxena",
+    "email" : "ayushisaxena@mail.com",
+    "address" : "D-165 Delta-1 Greater Noida",
+    "dateOfBirth" : "2021-11-28",
+    "registrationDate" : "2026-04-02"
+}
 ###
