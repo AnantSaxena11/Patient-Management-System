@@ -14,6 +14,22 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Schema(name = "Login Request DTO" , description = "This DTO defines what does the user sends to initiate login")
 public class LoginRequestDTO {
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Email(message = "email should be a valid email address")
     @NotBlank(message = "email should not be blank")
     @Schema(name = "Email" , description = "This field represents email" , example = "mailer@mail.com")
