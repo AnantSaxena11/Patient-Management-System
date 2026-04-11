@@ -1,0 +1,5 @@
+### Validate the request
+GET http://localhost:4004/gateway/auth/validate
+Authorization: Bearer {{token}}
+
+###

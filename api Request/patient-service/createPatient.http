@@ -1,5 +1,5 @@
 ### POST request to create patient
-POST http://localhost:4000/api/registerPatient
+POST http://localhost:4004/gateway/api/registerPatient
 Content-Type: application/json
 
 {
